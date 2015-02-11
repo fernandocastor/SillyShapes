@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		ED634BDF1A80E24900816D9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED634BDE1A80E24900816D9A /* AppDelegate.swift */; };
-		ED634BE11A80E24900816D9A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED634BE01A80E24900816D9A /* GameScene.sks */; };
 		ED634BE31A80E24900816D9A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED634BE21A80E24900816D9A /* GameScene.swift */; };
 		ED634BE51A80E24900816D9A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED634BE41A80E24900816D9A /* GameViewController.swift */; };
 		ED634BE81A80E24900816D9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED634BE61A80E24900816D9A /* Main.storyboard */; };
 		ED634BEA1A80E24900816D9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED634BE91A80E24900816D9A /* Images.xcassets */; };
 		ED634BED1A80E24900816D9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED634BEB1A80E24900816D9A /* LaunchScreen.xib */; };
 		ED634BF91A80E24A00816D9A /* SillyShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED634BF81A80E24A00816D9A /* SillyShapesTests.swift */; };
+		EDD3DE7F1A82855E002EF4F5 /* HighScoresScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3DE7E1A82855E002EF4F5 /* HighScoresScene.swift */; };
+		EDD3DE841A83F4A7002EF4F5 /* hitSound.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EDD3DE801A83F4A7002EF4F5 /* hitSound.aiff */; };
+		EDD3DE861A83F4A7002EF4F5 /* shotSound.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EDD3DE821A83F4A7002EF4F5 /* shotSound.aiff */; };
+		EDD3DE871A83F4A7002EF4F5 /* explosionSound.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EDD3DE831A83F4A7002EF4F5 /* explosionSound.aiff */; };
+		EDD3DE8F1A83FE8C002EF4F5 /* gameoverSound.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EDD3DE8E1A83FE8C002EF4F5 /* gameoverSound.aiff */; };
+		EDFB030C1A82526D00F0E7D9 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB030B1A82526D00F0E7D9 /* GameOverScene.swift */; };
+		EDFB030E1A825D3200F0E7D9 /* ScoreKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB030D1A825D3200F0E7D9 /* ScoreKeeper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +37,6 @@
 		ED634BD91A80E24900816D9A /* SillyShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SillyShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED634BDD1A80E24900816D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED634BDE1A80E24900816D9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED634BE01A80E24900816D9A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		ED634BE21A80E24900816D9A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		ED634BE41A80E24900816D9A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		ED634BE71A80E24900816D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +45,13 @@
 		ED634BF21A80E24A00816D9A /* SillyShapesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SillyShapesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED634BF71A80E24A00816D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED634BF81A80E24A00816D9A /* SillyShapesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillyShapesTests.swift; sourceTree = "<group>"; };
+		EDD3DE7E1A82855E002EF4F5 /* HighScoresScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScoresScene.swift; sourceTree = "<group>"; };
+		EDD3DE801A83F4A7002EF4F5 /* hitSound.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = hitSound.aiff; sourceTree = "<group>"; };
+		EDD3DE821A83F4A7002EF4F5 /* shotSound.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = shotSound.aiff; sourceTree = "<group>"; };
+		EDD3DE831A83F4A7002EF4F5 /* explosionSound.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = explosionSound.aiff; sourceTree = "<group>"; };
+		EDD3DE8E1A83FE8C002EF4F5 /* gameoverSound.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = gameoverSound.aiff; sourceTree = "<group>"; };
+		EDFB030B1A82526D00F0E7D9 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		EDFB030D1A825D3200F0E7D9 /* ScoreKeeper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreKeeper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +94,15 @@
 			isa = PBXGroup;
 			children = (
 				ED634BDE1A80E24900816D9A /* AppDelegate.swift */,
-				ED634BE01A80E24900816D9A /* GameScene.sks */,
 				ED634BE21A80E24900816D9A /* GameScene.swift */,
+				EDD3DE801A83F4A7002EF4F5 /* hitSound.aiff */,
+				EDD3DE821A83F4A7002EF4F5 /* shotSound.aiff */,
+				EDD3DE831A83F4A7002EF4F5 /* explosionSound.aiff */,
+				EDD3DE8E1A83FE8C002EF4F5 /* gameoverSound.aiff */,
+				EDD3DE7E1A82855E002EF4F5 /* HighScoresScene.swift */,
+				EDFB030B1A82526D00F0E7D9 /* GameOverScene.swift */,
 				ED634BE41A80E24900816D9A /* GameViewController.swift */,
+				EDFB030D1A825D3200F0E7D9 /* ScoreKeeper.swift */,
 				ED634BE61A80E24900816D9A /* Main.storyboard */,
 				ED634BE91A80E24900816D9A /* Images.xcassets */,
 				ED634BEB1A80E24900816D9A /* LaunchScreen.xib */,
@@ -198,10 +216,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD3DE861A83F4A7002EF4F5 /* shotSound.aiff in Resources */,
+				EDD3DE871A83F4A7002EF4F5 /* explosionSound.aiff in Resources */,
 				ED634BED1A80E24900816D9A /* LaunchScreen.xib in Resources */,
 				ED634BEA1A80E24900816D9A /* Images.xcassets in Resources */,
-				ED634BE11A80E24900816D9A /* GameScene.sks in Resources */,
 				ED634BE81A80E24900816D9A /* Main.storyboard in Resources */,
+				EDD3DE8F1A83FE8C002EF4F5 /* gameoverSound.aiff in Resources */,
+				EDD3DE841A83F4A7002EF4F5 /* hitSound.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +241,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED634BE31A80E24900816D9A /* GameScene.swift in Sources */,
+				EDD3DE7F1A82855E002EF4F5 /* HighScoresScene.swift in Sources */,
+				EDFB030E1A825D3200F0E7D9 /* ScoreKeeper.swift in Sources */,
 				ED634BE51A80E24900816D9A /* GameViewController.swift in Sources */,
+				EDFB030C1A82526D00F0E7D9 /* GameOverScene.swift in Sources */,
 				ED634BDF1A80E24900816D9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +437,7 @@
 				ED634BFE1A80E24A00816D9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED634BFF1A80E24A00816D9A /* Build configuration list for PBXNativeTarget "SillyShapesTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +446,7 @@
 				ED634C011A80E24A00816D9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
